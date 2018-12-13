@@ -4,4 +4,7 @@ branches:
 projects:
   LevelSystem:
     path: ""
+    libs:
+      - src: InkoHX/LeveLibrary/LeveLibrary
+        version: 0.0.4
 ...
