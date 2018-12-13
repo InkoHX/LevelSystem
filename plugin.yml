@@ -1,0 +1,7 @@
+name: LevelSystem
+main: InkoHX\LevelSystem\Core
+api: 3
+
+description: 'Level system plugin for PocketMine-MP'
+version: 1.0.0
+author: InkoHX
