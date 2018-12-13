@@ -9,7 +9,7 @@
 namespace InkoHX\LevelSystem;
 
 use InkoHX\LeveLibrary\LevelAPI;
-use InkoHX\LevelSystem\event\entity\ThePlayerDeathEvent;
+use InkoHX\LevelSystem\event\player\ThePlayerDeathEvent;
 use InkoHX\LevelSystem\event\level\LevelUpEvent;
 use pocketmine\plugin\PluginBase;
 

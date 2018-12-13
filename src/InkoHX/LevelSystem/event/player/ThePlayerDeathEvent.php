@@ -6,7 +6,7 @@
  * Time: 2:04
  */
 
-namespace InkoHX\LevelSystem\event\entity;
+namespace InkoHX\LevelSystem\event\player;
 
 use InkoHX\LeveLibrary\LevelAPI;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
