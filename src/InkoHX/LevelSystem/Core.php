@@ -21,7 +21,7 @@ class Core extends PluginBase
     public function onLoad()
     {
         $this->saveDefaultConfig();
-        LevelAPI::init();
+        LevelAPI::init(); // LeveLibrary
     }
 
     public function onEnable()

@@ -27,6 +27,6 @@ class ThePlayerDeathEvent implements Listener
         if (!$damager instanceof Player) {
             return;
         }
-        LevelAPI::Auto($damager);
+        LevelAPI::Auto($damager); // Add XP
     }
 }
