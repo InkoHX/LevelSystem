@@ -23,6 +23,6 @@ class ThePlayerDeathEvent implements Listener
         if (!$cause instanceof EntityDamageByEntityEvent) return;
         $damager = $cause->getDamager();
         if (!$damager instanceof Player) return;
-        LevelAPI::Auto($player);
+        LevelAPI::Auto($damager);
     }
 }
