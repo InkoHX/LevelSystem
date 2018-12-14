@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "708f7b8040bb7f1ed3d0d96615f0a6f7",
+    "content-hash": "502c7f7a977b026e7b8db64c276d6594",
     "packages": [
         {
             "name": "daverandom/callback-validator",
@@ -114,54 +114,6 @@
                 "x690"
             ],
             "time": "2018-12-02T01:34:34+00:00"
-        },
-        {
-            "name": "fuyutsuki/libform",
-            "version": "0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fuyutsuki/libform",
-                "reference": "d4d45f5dcc267d5359fe78a072bdf66d1d234a3d"
-            },
-            "require": {
-                "ext-bcmath": "*",
-                "ext-curl": "*",
-                "ext-hash": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "ext-openssl": "*",
-                "ext-pcre": "*",
-                "ext-phar": "*",
-                "ext-pthreads": ">=3.1.7dev",
-                "ext-reflection": "*",
-                "ext-sockets": "*",
-                "ext-spl": "*",
-                "ext-yaml": ">=2.0.0",
-                "ext-zip": "*",
-                "ext-zlib": ">=1.2.11",
-                "php": ">=7.2.0",
-                "pocketmine/binaryutils": "^0.1.0",
-                "pocketmine/math": "^0.2.0",
-                "pocketmine/nbt": "^0.2.0",
-                "pocketmine/pocketmine-mp": "^3.0",
-                "pocketmine/raklib": "^0.12.0",
-                "pocketmine/snooze": "^0.1.0",
-                "pocketmine/spl": "^0.3.0"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "": [
-                        "src"
-                    ]
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "It is a virion library that can handle various forms easily.",
-            "homepage": "https://github.com/fuyutsuki/libform",
-            "time": "2018-09-05T06:02:11+00:00"
         },
         {
             "name": "inkohx/levelibrary",
