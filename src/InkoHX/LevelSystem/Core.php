@@ -9,6 +9,7 @@
 namespace InkoHX\LevelSystem;
 
 use InkoHX\LeveLibrary\LevelAPI;
+use InkoHX\LevelSystem\event\level\XpGetEvent;
 use InkoHX\LevelSystem\event\player\ThePlayerDeathEvent;
 use InkoHX\LevelSystem\event\level\LevelUpEvent;
 use pocketmine\plugin\PluginBase;
@@ -24,5 +25,6 @@ class Core extends PluginBase
     {
         $this->getServer()->getPluginManager()->registerEvents(new LevelUpEvent(), $this);
         $this->getServer()->getPluginManager()->registerEvents(new ThePlayerDeathEvent(), $this);
+        $this->getServer()->getPluginManager()->registerEvents(new XpGetEvent(), $this);
     }
 }
