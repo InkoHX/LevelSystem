@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: InkoHX
  * Date: 2018/12/14
- * Time: 16:33
+ * Time: 16:33.
  */
 
 namespace InkoHX\LevelSystem\commands\defaults;
@@ -32,8 +32,8 @@ class StatusCommand extends PluginCommand
 
     /**
      * @param CommandSender $sender
-     * @param string $commandLabel
-     * @param array $args
+     * @param string        $commandLabel
+     * @param array         $args
      *
      * @return mixed
      */
@@ -45,6 +45,7 @@ class StatusCommand extends PluginCommand
         $level = LevelAPI::getLevel($sender);
         $needed = LevelAPI::NeededXP($sender);
         $sender->sendMessage("Level: Lv.{$level}\nNeeded XP: {$needed}");
+
         return true;
     }
 }

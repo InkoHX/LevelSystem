@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: InkoHX
  * Date: 2018/12/14
- * Time: 2:04
+ * Time: 2:04.
  */
 
 namespace InkoHX\LevelSystem\event\player;
@@ -20,9 +20,13 @@ class ThePlayerDeathEvent implements Listener
     {
         $player = $event->getPlayer();
         $cause = $player->getLastDamageCause();
-        if (!$cause instanceof EntityDamageByEntityEvent) return;
+        if (!$cause instanceof EntityDamageByEntityEvent) {
+            return;
+        }
         $damager = $cause->getDamager();
-        if (!$damager instanceof Player) return;
+        if (!$damager instanceof Player) {
+            return;
+        }
         LevelAPI::Auto($damager);
     }
 }
