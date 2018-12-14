@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: InkoHX
  * Date: 2018/12/14
- * Time: 16:26
+ * Time: 16:26.
  */
 
 namespace InkoHX\LevelSystem\commands;
