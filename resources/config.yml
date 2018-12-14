@@ -1,0 +1,5 @@
+# LevelSystem configuration file.
+# Dev: InkoHX
+
+# Please set the name of the command.
+status-command-name: status
